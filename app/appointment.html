@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Pace</title>
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+    </style>
+    <link href="css/bootstrap-datepicker.css" rel='stylesheet' type='text/css'/>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script>
+        $(document).ready(function (e) {
+            $('.datepicker').datepicker();
+        });
+    </script>
+</head>
+<body class="appointment">
+<div class="header">
+    <div class="header_top">
+        <div class="container">
+            <div class="top_contact right"><span class="contact_icon"></span>+1 408-628-0447</div>
+            <div class="top_time right"><span>Care hours</span>M-F 10:00AM–6:00PM, Sat 9:00AM-2:00PM</div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container">
+            <a style="font-size: 2em" class="navbar-brand" href="#!/home">
+                Pace Physical Therapy
+            </a>
+            <!--button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button-->
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!/home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!/about_us">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!/services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!/contact_us">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!/appointment">Appointment</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<section class="page_title">
+    <div class="container">
+        <h1 class="title blue">Appointment</h1>
+        <p class="page_description"></p>
+        <div class="title_bottom">
+            <div class="slide_bottom_title">
+                <div class="slide_bottom_title_inner">
+                    <span class="contact_icon"></span>CALL NOW <span class="number">+1 408-628-0447</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<section class="main_top">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <form action="" class="appointment_form">
+                    <div class="form-group">
+                        <label class="col-sm-4">Name</label>
+                        <div class="col-sm-8">
+                            <input type="text" name="cro_form_name" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4">Address</label>
+                        <div class="col-sm-8">
+                            <input type="text" name="cro_form_name" class="form-control"> <!--datepicker-->
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4">City</label>
+                        <div class="col-sm-8">
+                            <input type="text" name="cro_form_name" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4">State</label>
+                        <div class="col-sm-8">
+                            <input type="text" name="cro_form_name" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4">Zip Code</label>
+                        <div class="col-sm-8">
+                            <input type="text" name="cro_form_name" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4">Email</label>
+                        <div class="col-sm-8">
+                            <input type="email" name="cro_form_name" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4">Phone</label>
+                        <div class="col-sm-8">
+                            <input type="text" name="cro_form_name" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-4">Best Time for you</label>
+                        <div class="col-sm-8">
+                            <p>What time of the day and day of the week works best for you?</p>
+                            <label><input type="checkbox" value="day_time"/> Daytime (8:30am-12pm)</label><br/>
+                            <label><input type="checkbox" value="afternoons"/> Afternoons (1pm-5pm)</label><br/>
+                            <label><input type="checkbox" value="evenings"/> Evenings (5-7pm) </label><br/>
+
+                            <label><input type="checkbox" value="monday"/> Monday</label><br/>
+                            <label><input type="checkbox" value="tuesday"/> Tuesday</label><br/>
+                            <label><input type="checkbox" value="wednesday"/> Wednesday</label><br/>
+                            <label><input type="checkbox" value="thursday"/> Thursday</label><br/>
+                            <label><input type="checkbox" value="saturday"/> Saturday</label><br/>
+                            <label><input type="checkbox" value=""/> No Preference</label><br/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-4">Types Services</label>
+                        <div class="col-sm-8">
+                            <p>What types of dental services do you need?</p>
+                            <textarea name="cro_form_name" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4">Specific Concern</label>
+                        <div class="col-sm-8">
+                            <p>Do you have a specific dental concern?</p>
+                            <textarea name="cro_form_name" class="form-control"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-4">&nbsp;</label>
+                        <div class="col-sm-8">
+                            <p>How did you hear about us?</p>
+                            <input type="text" name="cro_form_name" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-4">&nbsp;</label>
+
+                        <div class="col-sm-8">
+                            <input type="submit" class="btn button btn-green" name="submit" value="SUBMIT">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="footer">
+    <div class="footer_top">
+        <div class="container">
+            <div class="row">
+                <ul class="social_icon">
+                    <li><a href="#"><span class="fb"></span></a></li>
+                    <li><a href="#"><span class="tw"></span></a></li>
+                    <li><a href="#"><span class="in"></span></a></li>
+                    <li><a href="#"><span class="yt"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer_middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-1">
+                    <h4 style="margin: 30px 0px 20px;">Quick links</h4>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <a href="#!/home">Home</a><br>
+                            <a href="#!/about_us">About Us</a><br>
+                            <a href="#!/services">Our Services</a><br>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="#!/appointment">Appointment</a><br>
+                            <a href="#!/contact_us">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h4 style="margin: 30px 0px 20px;">contact us</h4>
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <p>Phone Number : +1 408-628-0447</p>
+
+                            <p><a href="mailto:vidyadevarapalli@gmail.com">Email : vidyadevarapalli@gmail.com</a></p>
+                        </div>
+                        <div class="col-sm-4">
+                            <address>
+                                3880 South Bascom Ave, Ste 106, <br/> Sanjose, CA 95124
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_bottom">
+        <div class="container">
+            <div class="row">
+                <p class="copyright text-center">Copyright @ 2019. All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

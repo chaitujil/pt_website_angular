@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="pacePtClinicApp" class="no-js">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pace PT Clinic</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="lib/html5-boilerplate/dist/css/normalize.css">
+    <link rel="stylesheet" href="lib/html5-boilerplate/dist/css/main.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="lib/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+
+
+</head>
+<body>
+<div class="header">
+    <div class="header_top">
+        <div class="container">
+            <div class="top_contact right"><span class="contact_icon"></span>+1 408-628-0447</div>
+            <div class="top_time right"><span>Care hours</span>M-F 10:00AM–6:00PM, Sat 9:00AM-2:00PM</div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container">
+            <a style="font-size: 2em" class="navbar-brand" href="#!/home">
+                Pace Physical Therapy
+            </a>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!/home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!/about_us">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!/services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!/contact_us">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!/appointment">Appointment</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<div ng-view></div>
+
+<!--section class="main_top">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 left_content">
+                <div class="left_content_inner">
+                    <h3 class="top_title">
+                        <span class="small">WELCOME TO </span>
+                        <span class="blue"> PACE </span>
+                        <span class="green">PHYSICAL THERAPY</span>
+                    </h3>
+                    <div class="read_more_btn_div"><a href="#!/about_us" class="read_more about_us">KNOW MORE ABOUT US</a></div>
+                </div>
+            </div>
+
+            <div class="col-sm-7 right_content"><p>We are dental service provider offering great service, shorter waits, all in a new, modern, and state-of-the-art facility. A serene and special place
+                where you can explore options to discover more reasons to smile. Offering far beyond what you get from dental care, Pace Physical Therapy is led by our well-respected, board
+                certified
+                dental surgeon, Dr. Manisha Desai. It is also staffed by experienced and well trained staff, dental assistants, Hygienists, and treatment coordinators. We provide state-of-the-art oral
+                care and rejuvenation far beyond anything you have experienced.
+            </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="our_services">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 left_content image_content">
+                <img src="images/our_services.jpg"/>
+            </div>
+
+            <div class="col-sm-7">
+                <h2 class="title">
+                    <span class="green">Want Help To Decide If <span class="blue">Physical Therapy</span> Is Right For You?</span>
+                </h2>
+                <div class="right_content">
+                    <p>When it comes to your family’s health, you need the best. We pride ourselves on offering the best possible dental care available and going above and beyond for our
+                        patients. </p>
+                    <ul class="why_is_ul_left">
+                        <li>Quality service: shorter waiting time, compassionate staff and expert treatment.</li>
+                        <li>Enjoyable experience: Serene waiting area, Play area just for kids, evening and weekend appointments, Open six days a week</li>
+                        <li>State-of-the-art technology: New equipment, Modern digital dental office, and comprehensive dental care.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact_us">
+    <div class="" style="max-width:1550px;margin: 0 auto;">
+        <h2 class="title">
+            <span class="green">OUR</span>
+            <span class="blue">SERVICES</span>
+        </h2>
+        <div class="our_services_div row-eq-height">
+            <div class="col-sm-3 services_conatiner">
+                <div class="">
+                    <h1 class="services_title">Preventive Dentistry</h1>
+                    <div class="services_description"><p>At Pace Physical Therapy, our goal is to guard your smile by providing preventive services. Maintaining a clean mouth benefits overall
+                        health. We
+                        help you achieve your oral health goals by mutual efforts to preserve the natural dentition and supporting structures by preventing the onset, progress, and recurrence of
+                        dental diseases and conditions.</p>
+                        <ul>
+                            <li>Dental Exams and Cleaning,</li>
+                            <li>Digital X-Rays</li>
+                            <li>Fluoride Treatment</li>
+                            <li>Home Care</li>
+                            <li>Dental Sealants</li>
+                        </ul>
+                    </div>
+                    <a class="read_more" href="#!/services">Read More</a>
+                </div>
+            </div>
+            <div class="col-sm-3 services_conatiner">
+                <div class="">
+                    <h1 class="services_title">Cosmetic Dentistry</h1>
+                    <div class="services_description"><p>A beautiful smile not only adds to your look but also adds to how you feel. At Pace Physical Therapy, we provide multiple treatments to
+                        help you
+                        gain your Perfect Smile!</p>
+                        <ul>
+                            <li>Composite (White) Fillings</li>
+                            <li>Porcelain Crowns (Caps)</li>
+                            <li>Porcelain Dental Bridge</li>
+                            <li>Veneers</li>
+                            <li>Teeth Whitening (Bleaching)</li>
+                        </ul>
+                    </div>
+                    <a class="read_more" href="cosmetic-services.html">Read More</a>
+                </div>
+            </div>
+            <div class="col-sm-3 services_conatiner">
+                <div class="">
+                    <h1 class="services_title">Restorative Dentistry</h1>
+                    <div class="services_description"><p>Pace Physical Therapy offers variety of treatment to help you preserve a damaged tooth (or teeth). Experience improved functioning of
+                        your teeth
+                        with our restorative dentistry treatments intended to repair your smile.</p>
+                        <ul>
+                            <li>Periodontal Disease( Deep Cleaning)</li>
+                            <li>Root Canal Therapy</li>
+                            <li>Dentures & Partial Dentures</li>
+                            <li>Tooth Extraction</li>
+                            <li>Wisdom Tooth Extraction</li>
+                        </ul>
+                    </div>
+                    <a class="read_more" href="restorative-services.html">Read More</a>
+                </div>
+            </div>
+            <div class="col-sm-3 services_conatiner last-child">
+                <div class="">
+                    <h1 class="services_title">Emergency Dentistry</h1>
+                    <div class="services_description"><p>At Pace Physical Therapy, we understand how painful oral injuries can get. An emergency dental appointment can differ the situation,
+                        they can be
+                        either to save or to lose your tooth.</p>
+                    </div>
+                    <a class="read_more" href="emergency-services.html">Read More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section-->
+
+<div class="footer">
+    <div class="footer_top">
+        <div class="container">
+            <div class="row">
+                <ul class="social_icon">
+                    <li><a href="#"><span class="fb"></span></a></li>
+                    <li><a href="#"><span class="tw"></span></a></li>
+                    <li><a href="#"><span class="in"></span></a></li>
+                    <li><a href="#"><span class="yt"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer_middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-1">
+                    <h4 style="margin: 30px 0px 20px;">Quick links</h4>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <a href="#!/home">Home</a><br>
+                            <a href="#!/about_us">About Us</a><br>
+                            <a href="#!/services">Our Services</a><br>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="#!/appointment">Appointment</a><br>
+                            <a href="#!/contact_us">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h4 style="margin: 30px 0px 20px;">contact us</h4>
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <p>Phone Number : +1 408-628-0447</p>
+
+                            <p><a href="mailto:vidyadevarapalli@gmail.com">Email : vidyadevarapalli@gmail.com</a></p>
+                        </div>
+                        <div class="col-sm-4">
+                            <address>
+                                3880 South Bascom Ave, Ste 106, <br/> Sanjose, CA 95124
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_bottom">
+        <div class="container">
+            <div class="row">
+                <p class="copyright text-center">Copyright @ 2019. All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="lib/angular/angular.js"></script>
+<script src="lib/angular-route/angular-route.js"></script>
+<script src="app.js"></script>
+<script src="home.js"></script>
+<script src="contact_us.js"></script>
+<script src="about_us.js"></script>
+<script src="appointment.js"></script>
+<script src="services.js"></script>
+<script src="core/version/version.js"></script>
+<script src="core/version/version-directive.js"></script>
+<script src="core/version/interpolate-filter.js"></script>
+</body>
+</html>
