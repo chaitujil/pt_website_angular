@@ -2,17 +2,7 @@
 <html lang="en" ng-app="pacePtClinicApp" class="no-js">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Pace PT Clinic</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="lib/html5-boilerplate/dist/css/normalize.css">
-    <link rel="stylesheet" href="lib/html5-boilerplate/dist/css/main.css">
-    <link rel="stylesheet" href="app.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="lib/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+    <title>Pace</title>
     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="css/style.css" rel="stylesheet" media="screen">
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
@@ -22,48 +12,13 @@
             font-family: 'Roboto', sans-serif;
         }
     </style>
-
-
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
 </head>
 <body>
-<div class="header">
-    <div class="header_top">
-        <div class="container">
-            <div class="top_contact right"><span class="contact_icon"></span>+1 408-628-0447</div>
-            <div class="top_time right"><span>Care hours</span>M-F 10:00AM–6:00PM, Sat 9:00AM-2:00PM</div>
-        </div>
-    </div>
-    <nav class="navbar navbar-expand-sm navbar-dark">
-        <div class="container">
-            <a style="font-size: 2em" class="navbar-brand" href="#!/home">
-                Pace Physical Therapy
-            </a>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#!/home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#!/about_us">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#!/services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#!/contact_us">Contact Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#!/appointment">Appointment</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</div>
 
-<div ng-view></div>
-
-<!--section class="main_top">
+<section class="main_top">
     <div class="container">
         <div class="row">
             <div class="col-sm-5 left_content">
@@ -185,78 +140,7 @@
 
         </div>
     </div>
-</section-->
+</section>
 
-<div class="footer">
-    <div class="footer_top">
-        <div class="container">
-            <div class="row">
-                <ul class="social_icon">
-                    <li><a href="#"><span class="fb"></span></a></li>
-                    <li><a href="#"><span class="tw"></span></a></li>
-                    <li><a href="#"><span class="in"></span></a></li>
-                    <li><a href="#"><span class="yt"></span></a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="footer_middle">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4 col-sm-offset-1">
-                    <h4 style="margin: 30px 0px 20px;">Quick links</h4>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <a href="#!/home">Home</a><br>
-                            <a href="#!/about_us">About Us</a><br>
-                            <a href="#!/services">Our Services</a><br>
-                        </div>
-                        <div class="col-sm-6">
-                            <a href="#!/appointment">Appointment</a><br>
-                            <a href="#!/contact_us">Contact Us</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h4 style="margin: 30px 0px 20px;">contact us</h4>
-                    <div class="row">
-                        <div class="col-sm-8">
-                            <p>Phone Number : +1 408-628-0447</p>
-
-                            <p><a href="mailto:vidyadevarapalli@gmail.com">Email : vidyadevarapalli@gmail.com</a></p>
-                        </div>
-                        <div class="col-sm-4">
-                            <address>
-                                3880 South Bascom Ave, Ste 106, <br/> Sanjose, CA 95124
-                            </address>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer_bottom">
-        <div class="container">
-            <div class="row">
-                <p class="copyright text-center">Copyright @ 2019. All Rights Reserved</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/bootstrap.bundle.js"></script>
-<script src="lib/angular/angular.js"></script>
-<script src="lib/angular-route/angular-route.js"></script>
-<script src="app.js"></script>
-<script src="home.js"></script>
-<script src="contact_us.js"></script>
-<script src="about_us.js"></script>
-<script src="appointment.js"></script>
-<script src="services.js"></script>
-<script src="core/version/version.js"></script>
-<script src="core/version/version-directive.js"></script>
-<script src="core/version/interpolate-filter.js"></script>
 </body>
 </html>
