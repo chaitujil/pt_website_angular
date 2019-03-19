@@ -638,7 +638,7 @@ section {
 .page_title {
     position: relative;
     background: #F5F8FD;
-    border-bottom: 10px solid #061735;
+    border-bottom: 10px solid whitesmoke;
 }
 
 .page_title .container {

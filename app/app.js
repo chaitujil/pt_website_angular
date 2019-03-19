@@ -4,9 +4,6 @@
 angular.module('pacePtClinicApp', [
   'ngRoute',
   'pacePtClinicApp.home',
-  'pacePtClinicApp.about_us',
-  'pacePtClinicApp.contact_us',
-  'pacePtClinicApp.services',
   'pacePtClinicApp.contact_us',
   'pacePtClinicApp.appointment',
   'pacePtClinicApp.version'
