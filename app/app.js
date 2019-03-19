@@ -8,6 +8,7 @@ angular.module('pacePtClinicApp', [
   'pacePtClinicApp.contact_us',
   'pacePtClinicApp.services',
   'pacePtClinicApp.contact_us',
+  'pacePtClinicApp.appointment',
   'pacePtClinicApp.version'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
