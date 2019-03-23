@@ -23,3 +23,43 @@
   content: "|";
   padding-right: 0.3em;
 }
+
+.header_top .container {
+  display: flex;
+  justify-content: flex-end;
+}
+.header_top .container .top-item  {
+  margin-right: 2em;
+}
+.header li.nav-item {
+  border-left: none;
+}
+.main-view {
+  position: relative;
+  top: 100px;
+}
+.main-view .jumbotron {
+  margin-bottom: 0
+}
+.main-view .section-wrapper {
+  padding: 2.5rem 0;
+}
+.main-view .page_title {
+  border-bottom: 0;
+}
+.about-img {
+  border: 1px solid;
+  border-radius: 200px;
+  height: 220px;
+  width: 220px;
+  background-image: url(images/vidya_pic1.png);
+  background-size: 100%;
+}
+.about_single .left_image {
+  align-items: center;
+}
+@media (max-width: 576px) {
+  .main-view {
+    top: 84px;
+  }
+}

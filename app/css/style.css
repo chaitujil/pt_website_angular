@@ -3,8 +3,8 @@ body {
     font-weight: normal;
     overflow-x: hidden;
     color: #000;
-    font-size: 18px;
-    background: #f1eee8;
+    /* font-size: 18px;
+    background: #f1eee8; */
 }
 
 a {
@@ -231,14 +231,15 @@ h3 .blue {
     width: 100%;
 }
 
-section.main_top {
+/* section.main_top {
     padding: 40px 0;
-}
+} */
 
 section.main_top {
     background: #F5F8FD;
-    border-top: 10px solid white;
-    padding: 40px 0;
+    padding: 2.5rem 0;
+    /* border-top: 10px solid white;
+    padding: 40px 0; */
 }
 
 section.why_us {
