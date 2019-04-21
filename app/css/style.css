@@ -224,7 +224,7 @@ h3 .blue {
 .navbar-brand.home-page-brand {
     font-family: unset;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 28px;
     color: #061735;
     padding: 3px;
 }
@@ -254,7 +254,6 @@ h3 .blue {
 
 section.main_top {
     background: #F5F8FD;
-    padding: 2.5rem 0;
 }
 
 section.why_us {
