@@ -5,8 +5,7 @@ angular.module('pacePtClinicApp', [
   'ngRoute',
   'pacePtClinicApp.home',
   'pacePtClinicApp.contact_us',
-  'pacePtClinicApp.appointment',
-  'pacePtClinicApp.version'
+  'pacePtClinicApp.appointment'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');

@@ -52,7 +52,7 @@
   border-radius: 200px;
   height: 220px;
   width: 220px;
-  background-image: url(images/vidya_pic1.png);
+  background-image: url(../images/vidya_pic1.png);
   background-size: 100%;
 }
 .about_single .left_image {
