@@ -147,9 +147,23 @@ h3 .blue {
 }
 
 .navbar {
-    background: none repeat scroll 0 0 white;
     border: none;
     margin-bottom: 0px;
+    display:block;
+    position:relative;
+}
+
+.navbar::after {
+    background: white; /*url("../images/navbar_dark.jpg");*/
+    background-size: cover;
+    content: "";
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
 }
 
 .nav.navbar-nav {
@@ -305,7 +319,6 @@ section.why_us {
 }
 
 section.our_services {
-    background: white;
     border-radius: 0;
     margin-top: 0;
     padding: 0px;
@@ -315,6 +328,21 @@ section.our_services {
     line-height: unset;
     list-style: unset;
 }
+
+section.our_services::after {
+    background: url("../images/bg5.jpg");
+    background-size: cover;
+    content: "";
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+
 
 .our_services h2.title {
     font-size: 35px;
