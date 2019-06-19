@@ -146,6 +146,15 @@ h3 .blue {
     width: 20px;
 }
 
+.call_us_now {
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: grey;
+    padding: 20px;
+}
+
 .navbar {
     background: url("../images/navbar_white_8.jpg");
     border: none;
